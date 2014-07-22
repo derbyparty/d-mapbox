@@ -1,0 +1,36 @@
+{
+  "name": "d-mapbox",
+  "version": "0.0.1",
+  "description": "Map component for Derby",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "extend": "~1.2.1",
+    "mapbox.js": "^2.0",
+    "leaflet": "^0.7"
+  },
+  "optionalDependencies": {
+    "proj4leaflet": "^0.7"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/derbyparty/derby-mapbox.git"
+  },
+  "keywords": [
+    "derby",
+    "derbyjs",
+    "mapbox",
+    "map"
+  ],
+  "author": "Eric Samatov",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/derbyparty/derby-mapbox/issues"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}

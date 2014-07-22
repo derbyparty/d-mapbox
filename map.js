@@ -9,20 +9,13 @@ Maps.prototype.create = function (model, dom, options) {
 
   require('mapbox.js');
 
-  // Merge options
   var defaultOptions = {
-    mapTiles: 'https://api.tiles.mapbox.com/v3/examples.map-0l53fhk2.json',
-    attribution: '',
-    maxZoom: 6,
-    minZoom: 1,
-    continuousWorld: false,
-    noWrap: true
+    mapTiles: 'https://api.tiles.mapbox.com/v3/examples.map-0l53fhk2.json'
   };
 
-  options = extend(true, defaultOptions, options);
+  options = extend(true, defaultOptions, this.options);
 
-  var map = L.mapbox.map('mapbox-container', options.mapTiles, options)
-    .setView([7.5, 7], 3);
+  var map = L.mapbox.map('mapbox-container', options.mapTiles, options);
 
   var canvasTiles = L.tileLayer.canvas();
 

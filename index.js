@@ -1,3 +1,5 @@
 module.exports = function(app, options) {
-  app.component(require('./map'));
+  var Map = require('./map');
+  Map.prototype.options = options;
+  app.component(Map);
 };

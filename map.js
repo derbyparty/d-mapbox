@@ -19,7 +19,7 @@ Maps.prototype.create = function (model, dom, options) {
 
   var canvasTiles = L.tileLayer.canvas();
 
-  canvasTiles.drawTile = function(canvas, tilePoint, zoom) {
+  canvasTiles.drawTile = function (canvas, tilePoint, zoom) {
     var ctx = canvas.getContext('2d');
   };
 

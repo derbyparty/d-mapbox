@@ -1,6 +1,6 @@
 {
   "name": "d-mapbox",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Map component for Derby",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +16,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/derbyparty/derby-mapbox.git"
+    "url": "git://github.com/derbyparty/d-mapbox.git"
   },
   "keywords": [
     "derby",
@@ -28,7 +28,7 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/derbyparty/derby-mapbox/issues"
+    "url": "https://github.com/derbyparty/d-mapbox/issues"
   },
   "engines": {
     "node": "0.10.x"

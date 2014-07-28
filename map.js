@@ -26,4 +26,5 @@ Maps.prototype.create = function (model, dom, options) {
   canvasTiles.addTo(map);
   map.zoomControl.setPosition('bottomright');
 
+  L.Mapbox = map;
 }

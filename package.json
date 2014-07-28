@@ -1,13 +1,13 @@
 {
   "name": "d-mapbox",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Map component for Derby",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "extend": "~1.2.1",
-    "mapbox.js": "^2.0",
+    "mapbox.js": "^1.6",
     "leaflet": "^0.7"
   },
   "optionalDependencies": {
